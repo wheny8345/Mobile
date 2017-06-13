@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_main"
+    android:background="@drawable/menu1"
+
+    >
+
+
+    <TextView
+        android:text="Berasal dari daerah manakah R.A. Kartini? \n jawab :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="18sp"
+        android:layout_marginTop="120dp"
+        android:textColor="@android:color/black"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:id="@+id/radioGroup"
+
+        >
+
+
+        <RadioButton
+            android:text="Bandung"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton"
+            android:onClick="onRadioButton"
+            android:layout_toLeftOf="@+id/radioGroup"
+            android:layout_toStartOf="@+id/radioGroup"
+            android:layout_below="@+id/radioGroup"/>
+
+        <RadioButton
+            android:text="Jepara"
+
+            android:onClick="onRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton"
+            android:layout_alignLeft="@+id/radioButton"
+            android:layout_alignStart="@+id/radioButton"
+            android:layout_marginTop="36dp"
+            android:id="@+id/radioButton2"/>
+
+        <RadioButton
+            android:text="Jakarta"
+
+            android:onClick="onRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:id="@+id/radioButton3"
+            android:layout_below="@+id/radioButton2"
+            android:layout_alignLeft="@+id/radioButton2"
+            android:layout_alignStart="@+id/radioButton2"/>
+
+        <RadioButton
+            android:text="Yogyakarta"
+
+            android:onClick="onRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton3"
+            android:layout_alignLeft="@+id/radioButton3"
+            android:layout_alignStart="@+id/radioButton3"
+            android:layout_marginTop="39dp"
+            android:id="@+id/radioButton4"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="12pt"
+        android:textColor="@android:color/black"
+        android:text="KUIS"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/radioGroup"
+        android:layout_alignStart="@+id/radioGroup"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="21dp" />
+
+</RelativeLayout>

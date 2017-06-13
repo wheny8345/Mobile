@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu1"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Tentang"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="12pt"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/TextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="60dp"
+            android:text="Aplikasi HERO-EX versi 1.0"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textAlignment="center"
+
+            />
+
+        <TextView
+            android:id="@+id/teksview6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="Tugas UAS"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/teksview7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:text="Pemrograman Aplikasi Mobile"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/gjl1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="WHENY L.P (14.11.8345)"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/logintxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="14dp"
+            android:text="Aplikasi ini dibuat untuk memberikan informasi mengenai tokoh pahlawan.
+Dengan adanya aplikasi Hero-Ex, diharapkan dapat bermanfaat bagi para pengguna."
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</RelativeLayout>
